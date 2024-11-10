@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 scaler = pickle.load(open("scaler.pkl", 'rb'))
-model = pickle.load(open("model.pkl", 'rb'))
+model = pickle.load(open("model.pkl.zip", 'rb'))
 class_names = ['Lawyer', 'Doctor', 'Government Officer', 'Artist', 'Unknown',
                'Software Engineer', 'Teacher', 'Business Owner', 'Scientist',
                'Banker', 'Writer', 'Accountant', 'Designer',
