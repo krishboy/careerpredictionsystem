@@ -2,7 +2,7 @@ streamlit>=1.0.0
 setuptools>=65.5.1
 wheel
 pandas>2.0
-numpy==1.24.0
+numpy==1.24
 scikit-learn==1.5.1
 Seaborn==0.13.2
 matplotlib==3.9.1
