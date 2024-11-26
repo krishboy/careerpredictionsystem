@@ -2,8 +2,8 @@ import streamlit as st
 import pickle
 import numpy as np
 
-scaler = pickle.load(open("scaler.pkl", 'rb'))
-model = pickle.load(open("model.pkl.zip", 'rb'))
+scaler = pickle.load(open("scaler.sav", 'rb'))
+model = pickle.load(open("model.sav", 'rb'))
 class_names = ['Lawyer', 'Doctor', 'Government Officer', 'Artist', 'Unknown',
                'Software Engineer', 'Teacher', 'Business Owner', 'Scientist',
                'Banker', 'Writer', 'Accountant', 'Designer',
