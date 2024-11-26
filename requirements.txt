@@ -1,4 +1,6 @@
-streamlit==1.24.1
+streamlit>=1.0.0
+setuptools>=65.5.1
+wheel
 pandas>2.0
 numpy<=1.25.1
 pickle
