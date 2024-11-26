@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import numpy as np
+import os
 
 scaler = pickle.load(open("scaler.sav", 'rb'))
 model = pickle.load(open("model.sav", 'rb'))
